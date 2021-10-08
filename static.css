@@ -1,0 +1,51 @@
+.cb{
+    border: 2px solid black;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 2%;
+    text-align: center;
+    width: 20rem;
+    background-color: rgb(178, 208, 212);
+
+
+}
+.cb img{
+    width: 100%;
+
+}
+s{
+    color: rgb(236, 83, 12);
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1%;
+    margin: 1%;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .cb{
+        border: 2px solid black;
+        padding: 1%;
+        margin: 2%;
+        border-radius: 2%;
+        text-align: center;
+        width:80%;
+        background-color: darkgray;
+    
+    
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1%;
+        margin: 1%;
+    }
+    
+    
+
+
+}

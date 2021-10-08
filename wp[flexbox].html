@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flexbox</title>
+    <style>
+        .flex{
+            display: flex;
+            flex-direction:column;/*row,column,row-reverse,column-reverse*//*direction of content*/
+            justify-content: center;
+            flex-wrap:wrap;/*adjusts along with the screen*/
+            height: 400px;
+            align-items:flex-end;/*sigle elements*/
+            align-content: center;/*group of elements*/
+        }
+        .flex>div{
+            background-color: rgb(168, 126, 135);
+            color: rgb(20, 20, 19);
+            font-size: large;
+            padding: 1%;
+            margin: 2%;
+            font-family: cursive;
+
+        }
+    </style>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body style="background-color: rgb(112, 154, 156);">
+    <div class="flex">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        
+
+    </div>
+    
+</body>
+</html>
